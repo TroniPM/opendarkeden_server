@@ -1,0 +1,26 @@
+INFO:
+	You need the following libs to compile:
+	lua 5.1+
+	mysqlclient
+	cppunit
+	zlib
+	openssl
+
+	For compiling:
+	cd src
+	make depall
+	make
+
+	To generate source documentation:
+	cd src
+	doxygen
+
+	Visit our site for more info:
+	www.opendarkeden.com
+
+
+TODO:
+	* use autotools for compiling
+	* fix some linkage errors
+	* find a replacement for libcpsso
+	* fix risk some warnings

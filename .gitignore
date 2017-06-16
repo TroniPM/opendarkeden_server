@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# NOT UPLOAD HIDDEN FILES AND DIRS
+.*
+!/.gitignore
