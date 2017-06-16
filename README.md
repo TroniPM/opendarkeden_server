@@ -1,5 +1,4 @@
 # Packages:
-
 Some packages not standard that you'll have to install (you may have to install more packages), at least i had to install these:
   - sudo apt install xutils-dev (because gccmakedep)
   - sudo apt install libmysqlclient-dev (because mysql.h)
@@ -14,10 +13,14 @@ Every mention of cpsso LIB (this libs is a mess...), was commented. It was used 
   - src/Core/Cpackets/SS/CLLogin.cpp
 
 # For compiling:
+```
 cd src
 make depall
 make
+```
 
 # To generate source documentation:
+```
 cd src
 doxygen
+```
