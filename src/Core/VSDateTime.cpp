@@ -10,6 +10,7 @@
 #include <time.h>
 #include <sys/time.h>
 #include <string>
+#include <stdlib.h>
 
 //////////////////////////////////////////////////////////////////////////////
 // constants definition

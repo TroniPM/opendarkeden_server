@@ -178,7 +178,7 @@ void EnergyDrop::execute(Slayer* pSlayer, ZoneCoord_t X, ZoneCoord_t Y, SkillSlo
 			pEffect->setLevel(pSkillInfo->getLevel()/2);
 
 			//
-			//ObjectRegistry& objectregister = pZone->getObjectRegistry();
+			//ObjectRegistry& objectregister = pZone->getObjectRegistRy();
 			//objectregister.registerObject(pEffect);
 
 			//

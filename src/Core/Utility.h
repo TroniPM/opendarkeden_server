@@ -7,8 +7,11 @@
 
 #ifndef __UTILITY_H__
 #define __UTILITY_H__
-
+#include <stdlib.h>
+//#include <stdio.h>
+#include <string.h>
 #include "Types.h"
+
 //#include "Assert.h"
 
 //////////////////////////////////////////////////////////////////////////////

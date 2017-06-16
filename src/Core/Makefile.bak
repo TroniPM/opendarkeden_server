@@ -110,13 +110,12 @@ TARGETS = $(CORE_LIB) $(GS_PACKET_LIB) $(LS_PACKET_LIB) $(US_PACKET_LIB) $(SS_PA
 # actions
 #----------------------------------------------------------------------
 all : $(TARGETS)
-	$(MAKE) -C Lpackets #ok
-	$(MAKE) -C Gpackets #ok
-	$(MAKE) -C Cpackets #ok
-	$(MAKE) -C Upackets #ok
-	$(MAKE) -C Spackets #ok
-	$(MAKE) -C Rpackets #ok
-	$(MAKE) -C TOpackets #ok
+	$(MAKE) -C Lpackets#ok
+	$(MAKE) -C Gpackets#ok
+	$(MAKE) -C Cpackets#ok
+	$(MAKE) -C Upackets#ok
+	$(MAKE) -C Spackets#ok
+	$(MAKE) -C TOpackets#ok
 
 core : $(CORE_LIB)
 

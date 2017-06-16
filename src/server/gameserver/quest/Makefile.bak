@@ -431,11 +431,7 @@ TriggerManager.o: TriggerManager.cpp /usr/include/stdc-predef.h \
  /usr/include/mysql/mysql/psi/psi_memory.h \
  /usr/include/mysql/mysql/psi/psi_base.h ../../Mutex.h \
  ../../database/Statement.h ../../database/Result.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/c++/5/algorithm \
- /usr/include/c++/5/utility /usr/include/c++/5/bits/stl_relops.h \
- /usr/include/c++/5/bits/stl_algo.h /usr/include/c++/5/cstdlib \
- /usr/include/c++/5/bits/algorithmfwd.h \
- /usr/include/c++/5/bits/stl_heap.h /usr/include/c++/5/bits/stl_tempbuf.h
+ /usr/include/x86_64-linux-gnu/sys/time.h
 PropertyBuffer.o: PropertyBuffer.cpp /usr/include/stdc-predef.h \
  PropertyBuffer.h ../../../Core/Types.h ../../../Core/types/SystemTypes.h \
  /usr/include/c++/5/iostream \

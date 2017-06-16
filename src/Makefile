@@ -18,7 +18,7 @@ TEMPDIR   = $(VSHOME)/temp
 # actions
 #----------------------------------------------------------------------
 all :
-	$(MAKE) -C Core
+	$(MAKE) -C Core #ok
 	$(MAKE) -C server
 #	$(MAKE) -C util
 

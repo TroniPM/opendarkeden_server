@@ -24,3 +24,6 @@ make
 cd src
 doxygen
 ```
+
+## Not compiling part:
+Folder `src/server/gameserver` still not compiling. Seems to be an error in the added dynamic (or static) libraries (missing library,  library added incorrectly,  etc). You can check these libs in Makefile on `SYSLIBS` (dynamic) and `LIBS` (static) lines.

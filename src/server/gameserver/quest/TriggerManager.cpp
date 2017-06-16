@@ -4,10 +4,12 @@
 // Description : 
 ////////////////////////////////////////////////////////////////////////////////
 
+
 #include "TriggerManager.h"
 #include "Assert.h"
 #include "DB.h"
 #include <stdio.h>
+#include <algorithm> 
 
 class isSameTriggerID {
 public :

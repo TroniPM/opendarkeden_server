@@ -36,7 +36,7 @@ void CLLogin::read (SocketInputStream & iStream)
 
 		bool bRet = false;
 
-		bRet = GetCPCookieValue( m_Cpsso.c_str(), "UserID", id);
+		/*bRet = GetCPCookieValue( m_Cpsso.c_str(), "UserID", id);
 
 		if (!bRet)
 			throw InvalidProtocolException("Name Does Not Exist");
@@ -49,7 +49,7 @@ void CLLogin::read (SocketInputStream & iStream)
 		bRet = GetCPCookieValue( m_Cpsso.c_str(), "Age", age);
 
 		if (!bRet)
-			throw InvalidProtocolException("Age Does Not Exist");
+			throw InvalidProtocolException("Age Does Not Exist");*/
 
 		m_ID = id;
 		m_Password = pw;

@@ -740,17 +740,17 @@ void LoginPlayerManager::sendPacket ( const string & id , Packet * pPacket )
 //////////////////////////////////////////////////////////////////////
 // get debug string
 //////////////////////////////////////////////////////////////////////
-string LoginPlayerManager::toString () const
+/*string LoginPlayerManager::toString () const
 	throw ()
 {
 	__BEGIN_TRY
 
 	StringStream msg;
-	msg << "LoginPlayerManager(nPlayers:" << size() << ")";
+	msg << "LoginPlayerManager(nPlayers:" << Size() << ")";
 	return msg.toString();
 
 	__END_CATCH
-}
+}*/
 
 
 

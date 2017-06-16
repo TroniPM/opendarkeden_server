@@ -8,7 +8,7 @@
 #include "Types.h"
 #include "Exception.h"
 
-#include <lua.hpp>
+#include <lua5.2/lua.hpp>
 
 
 class LuaState {
